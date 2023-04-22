@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Startup</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+          <style>
+      .background-div{
+        background-color:black;
+        font-family:Montserrat;
+        color: white;
+        width: 1728px;
+        
+      }
+      .header-class{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+         align-items: center;
+         background-color:rgba(252, 175, 2, 1);
+         width: 1728px;
+         height: 86px;
+         flex: 1;
+      }
+      .right-class{
+        text-align: right;
+        justify-content: space-between;
+        display: flex;
+        
+      }
+      .about,.contact,.home,.login{
+        margin-right: 50px;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+
+      }
+      .left-class{
+         
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 39px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: black;
+          margin-left: 58px;
+
+      }
+      .bold-heading{
+        
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-left: 58px;
+        margin-top: 88px;
+        width: 736px;
+        height: 78px;
+        margin-bottom: 33px;
+
+      }
+      .description-class{
+        
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 63px;
+        width: 917px;
+        height: 238px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+      }
+      .second-section{
+        display: flex;
+       
+      }
+      
+      .img-class{
+        height: 482px;
+        width: 697px;
+        border-radius: 0px;
+        margin-top: 87px;
+        -webkit-transform: scaleX(-1);
+         transform: scaleX(-1);
+         object-fit: contain;
+         margin-top: 10px;
+
+      }
+      .button-class{
+        height: 66px;
+        width: 323px;
+        left: 63px;
+        top: 573px;
+        border-radius: 500px;
+        background: rgba(252, 175, 2, 1);
+        margin-left: 63px;
+        margin-top: 50px;
+        font-size: 32px;
+          font-weight: 700;
+          font-style: bold;
+          line-height: 39px;
+          letter-spacing: 0em;
+          text-align: center;
+
+      }
+      .contact-p{
+        height: 78px;
+        width: 369px;
+        
+        border-radius: nullpx;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 63px;
+        color:rgba(252, 175, 2, 1);
+
+
+      }
+      .name,.email{
+       
+        height: 82px;
+          width: 1570px;
+          margin-left: 63px;
+          top: 913px;
+          border-radius: 100px;
+          background-color: black;
+         
+          border-width: 2px;
+          border-style: solid;
+          margin-bottom: 60px;
+          border-color:rgba(252, 175, 2, 1) ;
+          padding-left: 30px;
+
+          
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 34px;
+          letter-spacing: 0em;
+
+        
+      }
+      .mobile,.city{
+        display: inline-block;
+        margin-left: 63px;
+        height: 82px;
+        width: 730px;
+        left: 63px;
+        top: 1177px;
+        border-radius: 100px;
+        background-color: black;
+        border-color:rgba(252, 175, 2, 1) ;
+          padding-left: 30px;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 34px;
+          letter-spacing: 0em;
+          margin-bottom: 60px;
+
+      }
+
+      ::placeholder { 
+        color:rgba(252, 175, 2, 1);
+       }
+       .submit{
+        height: 82px;
+        width: 325px;
+        margin-left: 685px;
+        top: 1326px;
+        border-radius: 100px;
+        background-color:rgba(252, 175, 2, 1); 
+        color: black;
+        
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 60px;
+
+
+       }
+       table {
+        border: 2px solid rgba(252, 175, 2, 1);
+        height: 755px;
+        width: 1582px;
+        margin-left: 75px;
+        text-align: center;
+       
+        border-radius: 0px;
+       
+        margin-top: 60px;
+
+        
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 34px;
+          letter-spacing: 0em;
+          color:rgba(252, 175, 2, 1) ;
+
+          
+          
+
+       }
+       .footer-class{
+        
+        background-color:rgba(252, 175, 2, 1) ;
+        color: black;
+       }
+      
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="background-div" style="padding-bottom: 100px;">
+      <div class="header-class">
+         <div class="left-class">Startup</div>
+         <div class="right-class">
+          <a  class="home"
+          href="">Home</a>
+         <a class="about" href="">About Us</a>
+         <a class="contact" href="">Contact Us</a>
+         <a class= "login" href="">Login</a>
+  
+         </div> 
+      </div>
+      <div class="second-section">
+        <div class="desc-class"> 
+          <p class="bold-heading"> Startup Landing Page</p>
+          <p class="description-class">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+             sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+         <button class="button-class">Login</button>
+  
+        </div>
+        <div >
+          <img class="img-class" src="5ce73b370dc5f157ffb73c5df166e15b.jpg" alt="not available">
+        </div>
+
+      </div class="third-section">
+      <p class="contact-p">Contact Us</p>
+      <input class="name" type="text" placeholder="Name">
+      <input class="email" type="text" placeholder="Email">
+      <input class="mobile" type="text" placeholder="Mobile Number">
+      <input class="city" type="text" placeholder="City">
+      <button class="submit">Submit Form</button>
+      <table class="table-class">
+        <tr>
+          <th>SNO</th>
+          <th>Startup Name</th>
+          <th>Startup Description</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>WOWIndia</td>
+          <td> A startup with wow ideas</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Loreum Ipsum</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Loreum Ipsum</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Loreum Ipsum</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Loreum Ipsum</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Loreum Ipsum</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        <tr class="footer-class  ">
+          <td>00</td>
+          <td>Final Footer</td>
+          <td>Loreum Ipsum Test</td>
+        </tr>
+        
+      </table>
+
+      <div >
+
+      </div>
+      
+      
+
+    </div>
+    
+  </body>
+</html>
